@@ -1,0 +1,28 @@
+load("@rules_cc//cc:defs.bzl", "cc_binary", "cc_library")
+
+
+cc_library(
+    name = "cool_lib",
+    srcs = [
+        "library/src/abc.cpp",
+    ],
+    hdrs = [
+        "include/abc.h",
+    ],
+    include_prefix = "",
+    includes = [
+        "include"
+    ],
+    strip_include_prefix = "include",
+)
+
+cc_binary(
+    name = "program",
+    srcs = [
+        "main.cpp"
+    ],
+    deps = [
+        #Intentionally left missing to see that bazel will fail to build this target
+        #However it will not give me a helpful message to indicate I am missing :cool_lib :(
+    ],
+)
