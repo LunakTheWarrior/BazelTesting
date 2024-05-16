@@ -1,0 +1,2485 @@
+{
+    "id": {
+        "started": {}
+    },
+    "children": [
+        {
+            "progress": {}
+        },
+        {
+            "unstructuredCommandLine": {}
+        },
+        {
+            "structuredCommandLine": {
+                "commandLineLabel": "original"
+            }
+        },
+        {
+            "structuredCommandLine": {
+                "commandLineLabel": "canonical"
+            }
+        },
+        {
+            "structuredCommandLine": {
+                "commandLineLabel": "tool"
+            }
+        },
+        {
+            "buildMetadata": {}
+        },
+        {
+            "optionsParsed": {}
+        },
+        {
+            "workspaceStatus": {}
+        },
+        {
+            "pattern": {
+                "pattern": [
+                    "..."
+                ]
+            }
+        },
+        {
+            "buildFinished": {}
+        }
+    ],
+    "started": {
+        "uuid": "8152c21b-61ac-4b91-96d2-24d7604b20dd",
+        "startTimeMillis": "1712554948645",
+        "buildToolVersion": "7.1.1",
+        "optionsDescription": "--test_output\u003dall --build_event_json_file\u003dtest.json",
+        "command": "test",
+        "workingDirectory": "/home/kristoffer/bazel_testing",
+        "workspaceDirectory": "/home/kristoffer/bazel_testing",
+        "serverPid": "1994270",
+        "startTime": "2024-04-08T05:42:28.645Z"
+    }
+}
+{
+    "id": {
+        "buildMetadata": {}
+    },
+    "buildMetadata": {}
+}
+{
+    "id": {
+        "unstructuredCommandLine": {}
+    },
+    "unstructuredCommandLine": {
+        "args": [
+            "test",
+            "--startup_time\u003d26",
+            "--command_wait_time\u003d0",
+            "--extract_data_time\u003d0",
+            "--binary_path\u003d/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin/bazel",
+            "--rc_source\u003dclient",
+            "--default_override\u003d0:common\u003d--isatty\u003d1",
+            "--default_override\u003d0:common\u003d--terminal_columns\u003d126",
+            "--client_env\u003dSHELL\u003d/bin/bash",
+            "--client_env\u003dQT_ACCESSIBILITY\u003d1",
+            "--client_env\u003dCOLORTERM\u003dtruecolor",
+            "--client_env\u003dXDG_CONFIG_DIRS\u003d/etc/xdg/xdg-i3:/etc/xdg",
+            "--client_env\u003dGTK_IM_MODULE\u003dibus",
+            "--client_env\u003dI3SOCK\u003d/run/user/1000/i3/ipc-socket.4066",
+            "--client_env\u003dTERMINATOR_DBUS_PATH\u003d/net/tenshu/Terminator2",
+            "--client_env\u003dTERMINATOR_UUID\u003durn:uuid:48f18d09-8886-4698-af65-6534a7dcf715",
+            "--client_env\u003dXMODIFIERS\u003d@im\u003dibus",
+            "--client_env\u003dDESKTOP_SESSION\u003di3",
+            "--client_env\u003dGTK_MODULES\u003dgail:atk-bridge",
+            "--client_env\u003dXDG_SEAT\u003dseat0",
+            "--client_env\u003dPWD\u003d/home/kristoffer/bazel_testing",
+            "--client_env\u003dLOGNAME\u003dkristoffer",
+            "--client_env\u003dXDG_SESSION_DESKTOP\u003di3",
+            "--client_env\u003dXDG_SESSION_TYPE\u003dx11",
+            "--client_env\u003dGPG_AGENT_INFO\u003d/run/user/1000/gnupg/S.gpg-agent:0:1",
+            "--client_env\u003dSYSTEMD_EXEC_PID\u003d3900",
+            "--client_env\u003dXAUTHORITY\u003d/run/user/1000/gdm/Xauthority",
+            "--client_env\u003dWINDOWPATH\u003d2",
+            "--client_env\u003dHOME\u003d/home/kristoffer",
+            "--client_env\u003dUSERNAME\u003dkristoffer",
+            "--client_env\u003dLANG\u003den_US.UTF-8",
+            "--client_env\u003dLS_COLORS\u003drs\u003d0:di\u003d01;34:ln\u003d01;36:mh\u003d00:pi\u003d40;33:so\u003d01;35:do\u003d01;35:bd\u003d40;33;01:cd\u003d40;33;01:or\u003d40;31;01:mi\u003d00:su\u003d37;41:sg\u003d30;43:ca\u003d00:tw\u003d30;42:ow\u003d34;42:st\u003d37;44:ex\u003d01;32:*.tar\u003d01;31:*.tgz\u003d01;31:*.arc\u003d01;31:*.arj\u003d01;31:*.taz\u003d01;31:*.lha\u003d01;31:*.lz4\u003d01;31:*.lzh\u003d01;31:*.lzma\u003d01;31:*.tlz\u003d01;31:*.txz\u003d01;31:*.tzo\u003d01;31:*.t7z\u003d01;31:*.zip\u003d01;31:*.z\u003d01;31:*.dz\u003d01;31:*.gz\u003d01;31:*.lrz\u003d01;31:*.lz\u003d01;31:*.lzo\u003d01;31:*.xz\u003d01;31:*.zst\u003d01;31:*.tzst\u003d01;31:*.bz2\u003d01;31:*.bz\u003d01;31:*.tbz\u003d01;31:*.tbz2\u003d01;31:*.tz\u003d01;31:*.deb\u003d01;31:*.rpm\u003d01;31:*.jar\u003d01;31:*.war\u003d01;31:*.ear\u003d01;31:*.sar\u003d01;31:*.rar\u003d01;31:*.alz\u003d01;31:*.ace\u003d01;31:*.zoo\u003d01;31:*.cpio\u003d01;31:*.7z\u003d01;31:*.rz\u003d01;31:*.cab\u003d01;31:*.wim\u003d01;31:*.swm\u003d01;31:*.dwm\u003d01;31:*.esd\u003d01;31:*.avif\u003d01;35:*.jpg\u003d01;35:*.jpeg\u003d01;35:*.mjpg\u003d01;35:*.mjpeg\u003d01;35:*.gif\u003d01;35:*.bmp\u003d01;35:*.pbm\u003d01;35:*.pgm\u003d01;35:*.ppm\u003d01;35:*.tga\u003d01;35:*.xbm\u003d01;35:*.xpm\u003d01;35:*.tif\u003d01;35:*.tiff\u003d01;35:*.png\u003d01;35:*.svg\u003d01;35:*.svgz\u003d01;35:*.mng\u003d01;35:*.pcx\u003d01;35:*.mov\u003d01;35:*.mpg\u003d01;35:*.mpeg\u003d01;35:*.m2v\u003d01;35:*.mkv\u003d01;35:*.webm\u003d01;35:*.webp\u003d01;35:*.ogm\u003d01;35:*.mp4\u003d01;35:*.m4v\u003d01;35:*.mp4v\u003d01;35:*.vob\u003d01;35:*.qt\u003d01;35:*.nuv\u003d01;35:*.wmv\u003d01;35:*.asf\u003d01;35:*.rm\u003d01;35:*.rmvb\u003d01;35:*.flc\u003d01;35:*.avi\u003d01;35:*.fli\u003d01;35:*.flv\u003d01;35:*.gl\u003d01;35:*.dl\u003d01;35:*.xcf\u003d01;35:*.xwd\u003d01;35:*.yuv\u003d01;35:*.cgm\u003d01;35:*.emf\u003d01;35:*.ogv\u003d01;35:*.ogx\u003d01;35:*.aac\u003d00;36:*.au\u003d00;36:*.flac\u003d00;36:*.m4a\u003d00;36:*.mid\u003d00;36:*.midi\u003d00;36:*.mka\u003d00;36:*.mp3\u003d00;36:*.mpc\u003d00;36:*.ogg\u003d00;36:*.ra\u003d00;36:*.wav\u003d00;36:*.oga\u003d00;36:*.opus\u003d00;36:*.spx\u003d00;36:*.xspf\u003d00;36:*~\u003d00;90:*#\u003d00;90:*.bak\u003d00;90:*.old\u003d00;90:*.orig\u003d00;90:*.part\u003d00;90:*.rej\u003d00;90:*.swp\u003d00;90:*.tmp\u003d00;90:*.dpkg-dist\u003d00;90:*.dpkg-old\u003d00;90:*.ucf-dist\u003d00;90:*.ucf-new\u003d00;90:*.ucf-old\u003d00;90:*.rpmnew\u003d00;90:*.rpmorig\u003d00;90:*.rpmsave\u003d00;90:",
+            "--client_env\u003dXDG_CURRENT_DESKTOP\u003di3",
+            "--client_env\u003dVTE_VERSION\u003d7200",
+            "--client_env\u003dTERMINATOR_DBUS_NAME\u003dnet.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873",
+            "--client_env\u003dCLUTTER_IM_MODULE\u003dibus",
+            "--client_env\u003dLESSCLOSE\u003d/usr/bin/lesspipe %s %s",
+            "--client_env\u003dXDG_SESSION_CLASS\u003duser",
+            "--client_env\u003dTERM\u003dxterm-256color",
+            "--client_env\u003dLESSOPEN\u003d| /usr/bin/lesspipe %s",
+            "--client_env\u003dUSER\u003dkristoffer",
+            "--client_env\u003dDISPLAY\u003d:0",
+            "--client_env\u003dSHLVL\u003d1",
+            "--client_env\u003dQT_IM_MODULE\u003dibus",
+            "--client_env\u003dXDG_VTNR\u003d2",
+            "--client_env\u003dXDG_SESSION_ID\u003d5",
+            "--client_env\u003dXDG_RUNTIME_DIR\u003d/run/user/1000",
+            "--client_env\u003dDEBUGINFOD_URLS\u003dhttps://debuginfod.ubuntu.com ",
+            "--client_env\u003dXDG_DATA_DIRS\u003d/usr/share/i3:/usr/share/gnome:/home/kristoffer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+            "--client_env\u003dPATH\u003d/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin:/home/kristoffer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kristoffer/bin",
+            "--client_env\u003dGDMSESSION\u003di3",
+            "--client_env\u003dDBUS_SESSION_BUS_ADDRESS\u003dunix:path\u003d/run/user/1000/bus",
+            "--client_env\u003dOLDPWD\u003d/home/kristoffer",
+            "--client_env\u003d_\u003d/home/kristoffer/bin/bazel",
+            "--client_env\u003dBAZELISK_SKIP_WRAPPER\u003dtrue",
+            "--client_cwd\u003d/home/kristoffer/bazel_testing",
+            "...",
+            "--test_output\u003dall",
+            "--build_event_json_file\u003dtest.json"
+        ]
+    }
+}
+{
+    "id": {
+        "optionsParsed": {}
+    },
+    "optionsParsed": {
+        "startupOptions": [
+            "--max_idle_secs\u003d10800",
+            "--noshutdown_on_low_sys_mem",
+            "--connect_timeout_secs\u003d30",
+            "--output_user_root\u003d/home/kristoffer/.cache/bazel/_bazel_kristoffer",
+            "--output_base\u003d/home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8",
+            "--failure_detail_out\u003d/home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/failure_detail.rawproto",
+            "--expand_configs_in_place",
+            "--idle_server_tasks",
+            "--write_command_log",
+            "--nowatchfs",
+            "--nofatal_event_bus_exceptions",
+            "--nowindows_enable_symlinks",
+            "--noclient_debug"
+        ],
+        "cmdLine": [
+            "--test_output\u003dall",
+            "--build_event_json_file\u003dtest.json"
+        ],
+        "explicitCmdLine": [
+            "--test_output\u003dall",
+            "--build_event_json_file\u003dtest.json"
+        ],
+        "invocationPolicy": {}
+    }
+}
+{
+    "id": {
+        "structuredCommandLine": {
+            "commandLineLabel": "original"
+        }
+    },
+    "structuredCommandLine": {
+        "commandLineLabel": "original",
+        "sections": [
+            {
+                "sectionLabel": "executable",
+                "chunkList": {
+                    "chunk": [
+                        "bazel"
+                    ]
+                }
+            },
+            {
+                "sectionLabel": "startup options",
+                "optionList": {}
+            },
+            {
+                "sectionLabel": "command",
+                "chunkList": {
+                    "chunk": [
+                        "test"
+                    ]
+                }
+            },
+            {
+                "sectionLabel": "command options",
+                "optionList": {
+                    "option": [
+                        {
+                            "combinedForm": "--rc_source\u003dclient",
+                            "optionName": "rc_source",
+                            "optionValue": "client",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--default_override\u003d0:common\u003d--isatty\u003d1",
+                            "optionName": "default_override",
+                            "optionValue": "0:common\u003d--isatty\u003d1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--default_override\u003d0:common\u003d--terminal_columns\u003d126",
+                            "optionName": "default_override",
+                            "optionValue": "0:common\u003d--terminal_columns\u003d126",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--startup_time\u003d26",
+                            "optionName": "startup_time",
+                            "optionValue": "26",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--command_wait_time\u003d0",
+                            "optionName": "command_wait_time",
+                            "optionValue": "0",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--extract_data_time\u003d0",
+                            "optionName": "extract_data_time",
+                            "optionValue": "0",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--binary_path\u003d/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin/bazel",
+                            "optionName": "binary_path",
+                            "optionValue": "/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin/bazel",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dSHELL\u003d/bin/bash",
+                            "optionName": "client_env",
+                            "optionValue": "SHELL\u003d/bin/bash",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dQT_ACCESSIBILITY\u003d1",
+                            "optionName": "client_env",
+                            "optionValue": "QT_ACCESSIBILITY\u003d1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dCOLORTERM\u003dtruecolor",
+                            "optionName": "client_env",
+                            "optionValue": "COLORTERM\u003dtruecolor",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_CONFIG_DIRS\u003d/etc/xdg/xdg-i3:/etc/xdg",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_CONFIG_DIRS\u003d/etc/xdg/xdg-i3:/etc/xdg",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dGTK_IM_MODULE\u003dibus",
+                            "optionName": "client_env",
+                            "optionValue": "GTK_IM_MODULE\u003dibus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dI3SOCK\u003d/run/user/1000/i3/ipc-socket.4066",
+                            "optionName": "client_env",
+                            "optionValue": "I3SOCK\u003d/run/user/1000/i3/ipc-socket.4066",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dTERMINATOR_DBUS_PATH\u003d/net/tenshu/Terminator2",
+                            "optionName": "client_env",
+                            "optionValue": "TERMINATOR_DBUS_PATH\u003d/net/tenshu/Terminator2",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dTERMINATOR_UUID\u003durn:uuid:48f18d09-8886-4698-af65-6534a7dcf715",
+                            "optionName": "client_env",
+                            "optionValue": "TERMINATOR_UUID\u003durn:uuid:48f18d09-8886-4698-af65-6534a7dcf715",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXMODIFIERS\u003d@im\u003dibus",
+                            "optionName": "client_env",
+                            "optionValue": "XMODIFIERS\u003d@im\u003dibus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dDESKTOP_SESSION\u003di3",
+                            "optionName": "client_env",
+                            "optionValue": "DESKTOP_SESSION\u003di3",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dGTK_MODULES\u003dgail:atk-bridge",
+                            "optionName": "client_env",
+                            "optionValue": "GTK_MODULES\u003dgail:atk-bridge",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SEAT\u003dseat0",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SEAT\u003dseat0",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dPWD\u003d/home/kristoffer/bazel_testing",
+                            "optionName": "client_env",
+                            "optionValue": "PWD\u003d/home/kristoffer/bazel_testing",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLOGNAME\u003dkristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "LOGNAME\u003dkristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SESSION_DESKTOP\u003di3",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SESSION_DESKTOP\u003di3",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SESSION_TYPE\u003dx11",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SESSION_TYPE\u003dx11",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dGPG_AGENT_INFO\u003d/run/user/1000/gnupg/S.gpg-agent:0:1",
+                            "optionName": "client_env",
+                            "optionValue": "GPG_AGENT_INFO\u003d/run/user/1000/gnupg/S.gpg-agent:0:1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dSYSTEMD_EXEC_PID\u003d3900",
+                            "optionName": "client_env",
+                            "optionValue": "SYSTEMD_EXEC_PID\u003d3900",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXAUTHORITY\u003d/run/user/1000/gdm/Xauthority",
+                            "optionName": "client_env",
+                            "optionValue": "XAUTHORITY\u003d/run/user/1000/gdm/Xauthority",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dWINDOWPATH\u003d2",
+                            "optionName": "client_env",
+                            "optionValue": "WINDOWPATH\u003d2",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dHOME\u003d/home/kristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "HOME\u003d/home/kristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dUSERNAME\u003dkristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "USERNAME\u003dkristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLANG\u003den_US.UTF-8",
+                            "optionName": "client_env",
+                            "optionValue": "LANG\u003den_US.UTF-8",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLS_COLORS\u003drs\u003d0:di\u003d01;34:ln\u003d01;36:mh\u003d00:pi\u003d40;33:so\u003d01;35:do\u003d01;35:bd\u003d40;33;01:cd\u003d40;33;01:or\u003d40;31;01:mi\u003d00:su\u003d37;41:sg\u003d30;43:ca\u003d00:tw\u003d30;42:ow\u003d34;42:st\u003d37;44:ex\u003d01;32:*.tar\u003d01;31:*.tgz\u003d01;31:*.arc\u003d01;31:*.arj\u003d01;31:*.taz\u003d01;31:*.lha\u003d01;31:*.lz4\u003d01;31:*.lzh\u003d01;31:*.lzma\u003d01;31:*.tlz\u003d01;31:*.txz\u003d01;31:*.tzo\u003d01;31:*.t7z\u003d01;31:*.zip\u003d01;31:*.z\u003d01;31:*.dz\u003d01;31:*.gz\u003d01;31:*.lrz\u003d01;31:*.lz\u003d01;31:*.lzo\u003d01;31:*.xz\u003d01;31:*.zst\u003d01;31:*.tzst\u003d01;31:*.bz2\u003d01;31:*.bz\u003d01;31:*.tbz\u003d01;31:*.tbz2\u003d01;31:*.tz\u003d01;31:*.deb\u003d01;31:*.rpm\u003d01;31:*.jar\u003d01;31:*.war\u003d01;31:*.ear\u003d01;31:*.sar\u003d01;31:*.rar\u003d01;31:*.alz\u003d01;31:*.ace\u003d01;31:*.zoo\u003d01;31:*.cpio\u003d01;31:*.7z\u003d01;31:*.rz\u003d01;31:*.cab\u003d01;31:*.wim\u003d01;31:*.swm\u003d01;31:*.dwm\u003d01;31:*.esd\u003d01;31:*.avif\u003d01;35:*.jpg\u003d01;35:*.jpeg\u003d01;35:*.mjpg\u003d01;35:*.mjpeg\u003d01;35:*.gif\u003d01;35:*.bmp\u003d01;35:*.pbm\u003d01;35:*.pgm\u003d01;35:*.ppm\u003d01;35:*.tga\u003d01;35:*.xbm\u003d01;35:*.xpm\u003d01;35:*.tif\u003d01;35:*.tiff\u003d01;35:*.png\u003d01;35:*.svg\u003d01;35:*.svgz\u003d01;35:*.mng\u003d01;35:*.pcx\u003d01;35:*.mov\u003d01;35:*.mpg\u003d01;35:*.mpeg\u003d01;35:*.m2v\u003d01;35:*.mkv\u003d01;35:*.webm\u003d01;35:*.webp\u003d01;35:*.ogm\u003d01;35:*.mp4\u003d01;35:*.m4v\u003d01;35:*.mp4v\u003d01;35:*.vob\u003d01;35:*.qt\u003d01;35:*.nuv\u003d01;35:*.wmv\u003d01;35:*.asf\u003d01;35:*.rm\u003d01;35:*.rmvb\u003d01;35:*.flc\u003d01;35:*.avi\u003d01;35:*.fli\u003d01;35:*.flv\u003d01;35:*.gl\u003d01;35:*.dl\u003d01;35:*.xcf\u003d01;35:*.xwd\u003d01;35:*.yuv\u003d01;35:*.cgm\u003d01;35:*.emf\u003d01;35:*.ogv\u003d01;35:*.ogx\u003d01;35:*.aac\u003d00;36:*.au\u003d00;36:*.flac\u003d00;36:*.m4a\u003d00;36:*.mid\u003d00;36:*.midi\u003d00;36:*.mka\u003d00;36:*.mp3\u003d00;36:*.mpc\u003d00;36:*.ogg\u003d00;36:*.ra\u003d00;36:*.wav\u003d00;36:*.oga\u003d00;36:*.opus\u003d00;36:*.spx\u003d00;36:*.xspf\u003d00;36:*~\u003d00;90:*#\u003d00;90:*.bak\u003d00;90:*.old\u003d00;90:*.orig\u003d00;90:*.part\u003d00;90:*.rej\u003d00;90:*.swp\u003d00;90:*.tmp\u003d00;90:*.dpkg-dist\u003d00;90:*.dpkg-old\u003d00;90:*.ucf-dist\u003d00;90:*.ucf-new\u003d00;90:*.ucf-old\u003d00;90:*.rpmnew\u003d00;90:*.rpmorig\u003d00;90:*.rpmsave\u003d00;90:",
+                            "optionName": "client_env",
+                            "optionValue": "LS_COLORS\u003drs\u003d0:di\u003d01;34:ln\u003d01;36:mh\u003d00:pi\u003d40;33:so\u003d01;35:do\u003d01;35:bd\u003d40;33;01:cd\u003d40;33;01:or\u003d40;31;01:mi\u003d00:su\u003d37;41:sg\u003d30;43:ca\u003d00:tw\u003d30;42:ow\u003d34;42:st\u003d37;44:ex\u003d01;32:*.tar\u003d01;31:*.tgz\u003d01;31:*.arc\u003d01;31:*.arj\u003d01;31:*.taz\u003d01;31:*.lha\u003d01;31:*.lz4\u003d01;31:*.lzh\u003d01;31:*.lzma\u003d01;31:*.tlz\u003d01;31:*.txz\u003d01;31:*.tzo\u003d01;31:*.t7z\u003d01;31:*.zip\u003d01;31:*.z\u003d01;31:*.dz\u003d01;31:*.gz\u003d01;31:*.lrz\u003d01;31:*.lz\u003d01;31:*.lzo\u003d01;31:*.xz\u003d01;31:*.zst\u003d01;31:*.tzst\u003d01;31:*.bz2\u003d01;31:*.bz\u003d01;31:*.tbz\u003d01;31:*.tbz2\u003d01;31:*.tz\u003d01;31:*.deb\u003d01;31:*.rpm\u003d01;31:*.jar\u003d01;31:*.war\u003d01;31:*.ear\u003d01;31:*.sar\u003d01;31:*.rar\u003d01;31:*.alz\u003d01;31:*.ace\u003d01;31:*.zoo\u003d01;31:*.cpio\u003d01;31:*.7z\u003d01;31:*.rz\u003d01;31:*.cab\u003d01;31:*.wim\u003d01;31:*.swm\u003d01;31:*.dwm\u003d01;31:*.esd\u003d01;31:*.avif\u003d01;35:*.jpg\u003d01;35:*.jpeg\u003d01;35:*.mjpg\u003d01;35:*.mjpeg\u003d01;35:*.gif\u003d01;35:*.bmp\u003d01;35:*.pbm\u003d01;35:*.pgm\u003d01;35:*.ppm\u003d01;35:*.tga\u003d01;35:*.xbm\u003d01;35:*.xpm\u003d01;35:*.tif\u003d01;35:*.tiff\u003d01;35:*.png\u003d01;35:*.svg\u003d01;35:*.svgz\u003d01;35:*.mng\u003d01;35:*.pcx\u003d01;35:*.mov\u003d01;35:*.mpg\u003d01;35:*.mpeg\u003d01;35:*.m2v\u003d01;35:*.mkv\u003d01;35:*.webm\u003d01;35:*.webp\u003d01;35:*.ogm\u003d01;35:*.mp4\u003d01;35:*.m4v\u003d01;35:*.mp4v\u003d01;35:*.vob\u003d01;35:*.qt\u003d01;35:*.nuv\u003d01;35:*.wmv\u003d01;35:*.asf\u003d01;35:*.rm\u003d01;35:*.rmvb\u003d01;35:*.flc\u003d01;35:*.avi\u003d01;35:*.fli\u003d01;35:*.flv\u003d01;35:*.gl\u003d01;35:*.dl\u003d01;35:*.xcf\u003d01;35:*.xwd\u003d01;35:*.yuv\u003d01;35:*.cgm\u003d01;35:*.emf\u003d01;35:*.ogv\u003d01;35:*.ogx\u003d01;35:*.aac\u003d00;36:*.au\u003d00;36:*.flac\u003d00;36:*.m4a\u003d00;36:*.mid\u003d00;36:*.midi\u003d00;36:*.mka\u003d00;36:*.mp3\u003d00;36:*.mpc\u003d00;36:*.ogg\u003d00;36:*.ra\u003d00;36:*.wav\u003d00;36:*.oga\u003d00;36:*.opus\u003d00;36:*.spx\u003d00;36:*.xspf\u003d00;36:*~\u003d00;90:*#\u003d00;90:*.bak\u003d00;90:*.old\u003d00;90:*.orig\u003d00;90:*.part\u003d00;90:*.rej\u003d00;90:*.swp\u003d00;90:*.tmp\u003d00;90:*.dpkg-dist\u003d00;90:*.dpkg-old\u003d00;90:*.ucf-dist\u003d00;90:*.ucf-new\u003d00;90:*.ucf-old\u003d00;90:*.rpmnew\u003d00;90:*.rpmorig\u003d00;90:*.rpmsave\u003d00;90:",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_CURRENT_DESKTOP\u003di3",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_CURRENT_DESKTOP\u003di3",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dVTE_VERSION\u003d7200",
+                            "optionName": "client_env",
+                            "optionValue": "VTE_VERSION\u003d7200",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dTERMINATOR_DBUS_NAME\u003dnet.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873",
+                            "optionName": "client_env",
+                            "optionValue": "TERMINATOR_DBUS_NAME\u003dnet.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dCLUTTER_IM_MODULE\u003dibus",
+                            "optionName": "client_env",
+                            "optionValue": "CLUTTER_IM_MODULE\u003dibus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLESSCLOSE\u003d/usr/bin/lesspipe %s %s",
+                            "optionName": "client_env",
+                            "optionValue": "LESSCLOSE\u003d/usr/bin/lesspipe %s %s",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SESSION_CLASS\u003duser",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SESSION_CLASS\u003duser",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dTERM\u003dxterm-256color",
+                            "optionName": "client_env",
+                            "optionValue": "TERM\u003dxterm-256color",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLESSOPEN\u003d| /usr/bin/lesspipe %s",
+                            "optionName": "client_env",
+                            "optionValue": "LESSOPEN\u003d| /usr/bin/lesspipe %s",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dUSER\u003dkristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "USER\u003dkristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dDISPLAY\u003d:0",
+                            "optionName": "client_env",
+                            "optionValue": "DISPLAY\u003d:0",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dSHLVL\u003d1",
+                            "optionName": "client_env",
+                            "optionValue": "SHLVL\u003d1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dQT_IM_MODULE\u003dibus",
+                            "optionName": "client_env",
+                            "optionValue": "QT_IM_MODULE\u003dibus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_VTNR\u003d2",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_VTNR\u003d2",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SESSION_ID\u003d5",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SESSION_ID\u003d5",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_RUNTIME_DIR\u003d/run/user/1000",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_RUNTIME_DIR\u003d/run/user/1000",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dDEBUGINFOD_URLS\u003dhttps://debuginfod.ubuntu.com ",
+                            "optionName": "client_env",
+                            "optionValue": "DEBUGINFOD_URLS\u003dhttps://debuginfod.ubuntu.com ",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_DATA_DIRS\u003d/usr/share/i3:/usr/share/gnome:/home/kristoffer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_DATA_DIRS\u003d/usr/share/i3:/usr/share/gnome:/home/kristoffer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dPATH\u003d/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin:/home/kristoffer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kristoffer/bin",
+                            "optionName": "client_env",
+                            "optionValue": "PATH\u003d/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin:/home/kristoffer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kristoffer/bin",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dGDMSESSION\u003di3",
+                            "optionName": "client_env",
+                            "optionValue": "GDMSESSION\u003di3",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dDBUS_SESSION_BUS_ADDRESS\u003dunix:path\u003d/run/user/1000/bus",
+                            "optionName": "client_env",
+                            "optionValue": "DBUS_SESSION_BUS_ADDRESS\u003dunix:path\u003d/run/user/1000/bus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dOLDPWD\u003d/home/kristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "OLDPWD\u003d/home/kristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003d_\u003d/home/kristoffer/bin/bazel",
+                            "optionName": "client_env",
+                            "optionValue": "_\u003d/home/kristoffer/bin/bazel",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dBAZELISK_SKIP_WRAPPER\u003dtrue",
+                            "optionName": "client_env",
+                            "optionValue": "BAZELISK_SKIP_WRAPPER\u003dtrue",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_cwd\u003d/home/kristoffer/bazel_testing",
+                            "optionName": "client_cwd",
+                            "optionValue": "/home/kristoffer/bazel_testing",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--test_output\u003dall",
+                            "optionName": "test_output",
+                            "optionValue": "all",
+                            "effectTags": [
+                                "TEST_RUNNER",
+                                "TERMINAL_OUTPUT",
+                                "EXECUTION"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--build_event_json_file\u003dtest.json",
+                            "optionName": "build_event_json_file",
+                            "optionValue": "test.json",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionLabel": "residual",
+                "chunkList": {
+                    "chunk": [
+                        "..."
+                    ]
+                }
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "structuredCommandLine": {
+            "commandLineLabel": "canonical"
+        }
+    },
+    "structuredCommandLine": {
+        "commandLineLabel": "canonical",
+        "sections": [
+            {
+                "sectionLabel": "executable",
+                "chunkList": {
+                    "chunk": [
+                        "bazel"
+                    ]
+                }
+            },
+            {
+                "sectionLabel": "startup options",
+                "optionList": {
+                    "option": [
+                        {
+                            "combinedForm": "--max_idle_secs\u003d10800",
+                            "optionName": "max_idle_secs",
+                            "optionValue": "10800",
+                            "effectTags": [
+                                "EAGERNESS_TO_EXIT",
+                                "LOSES_INCREMENTAL_STATE"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--noshutdown_on_low_sys_mem",
+                            "optionName": "shutdown_on_low_sys_mem",
+                            "optionValue": "0",
+                            "effectTags": [
+                                "EAGERNESS_TO_EXIT",
+                                "LOSES_INCREMENTAL_STATE"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--connect_timeout_secs\u003d30",
+                            "optionName": "connect_timeout_secs",
+                            "optionValue": "30",
+                            "effectTags": [
+                                "BAZEL_INTERNAL_CONFIGURATION"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--output_user_root\u003d/home/kristoffer/.cache/bazel/_bazel_kristoffer",
+                            "optionName": "output_user_root",
+                            "optionValue": "/home/kristoffer/.cache/bazel/_bazel_kristoffer",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "LOSES_INCREMENTAL_STATE"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--install_base\u003d/home/kristoffer/.cache/bazel/_bazel_kristoffer/install/c8ddc30f81d03fbb6c764cadbda081c8",
+                            "optionName": "install_base",
+                            "optionValue": "/home/kristoffer/.cache/bazel/_bazel_kristoffer/install/c8ddc30f81d03fbb6c764cadbda081c8",
+                            "effectTags": [
+                                "CHANGES_INPUTS",
+                                "LOSES_INCREMENTAL_STATE"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--install_md5\u003dc8ddc30f81d03fbb6c764cadbda081c8",
+                            "optionName": "install_md5",
+                            "optionValue": "c8ddc30f81d03fbb6c764cadbda081c8",
+                            "effectTags": [
+                                "LOSES_INCREMENTAL_STATE",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--output_base\u003d/home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8",
+                            "optionName": "output_base",
+                            "optionValue": "/home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "LOSES_INCREMENTAL_STATE"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--workspace_directory\u003d/home/kristoffer/bazel_testing",
+                            "optionName": "workspace_directory",
+                            "optionValue": "/home/kristoffer/bazel_testing",
+                            "effectTags": [
+                                "CHANGES_INPUTS",
+                                "LOSES_INCREMENTAL_STATE"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--default_system_javabase\u003d/usr/lib/jvm/java-17-openjdk-amd64",
+                            "optionName": "default_system_javabase",
+                            "optionValue": "/usr/lib/jvm/java-17-openjdk-amd64",
+                            "effectTags": [
+                                "CHANGES_INPUTS",
+                                "LOSES_INCREMENTAL_STATE"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--failure_detail_out\u003d/home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/failure_detail.rawproto",
+                            "optionName": "failure_detail_out",
+                            "optionValue": "/home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/failure_detail.rawproto",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "LOSES_INCREMENTAL_STATE"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--expand_configs_in_place",
+                            "optionName": "expand_configs_in_place",
+                            "optionValue": "1",
+                            "effectTags": [
+                                "NO_OP"
+                            ],
+                            "metadataTags": [
+                                "DEPRECATED"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--idle_server_tasks",
+                            "optionName": "idle_server_tasks",
+                            "optionValue": "1",
+                            "effectTags": [
+                                "LOSES_INCREMENTAL_STATE",
+                                "HOST_MACHINE_RESOURCE_OPTIMIZATIONS"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--write_command_log",
+                            "optionName": "write_command_log",
+                            "optionValue": "1",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "LOSES_INCREMENTAL_STATE"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--nowatchfs",
+                            "optionName": "watchfs",
+                            "optionValue": "0",
+                            "effectTags": [
+                                "UNKNOWN"
+                            ],
+                            "metadataTags": [
+                                "DEPRECATED"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--nofatal_event_bus_exceptions",
+                            "optionName": "fatal_event_bus_exceptions",
+                            "optionValue": "0",
+                            "effectTags": [
+                                "EAGERNESS_TO_EXIT",
+                                "LOSES_INCREMENTAL_STATE"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--nowindows_enable_symlinks",
+                            "optionName": "windows_enable_symlinks",
+                            "optionValue": "0",
+                            "effectTags": [
+                                "BAZEL_INTERNAL_CONFIGURATION"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_debug\u003dfalse",
+                            "optionName": "client_debug",
+                            "optionValue": "false",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--product_name\u003dBazel",
+                            "optionName": "product_name",
+                            "optionValue": "Bazel",
+                            "effectTags": [
+                                "LOSES_INCREMENTAL_STATE",
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--option_sources\u003d",
+                            "optionName": "option_sources",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--ignore_all_rc_files",
+                            "optionName": "ignore_all_rc_files",
+                            "optionValue": "1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionLabel": "command",
+                "chunkList": {
+                    "chunk": [
+                        "test"
+                    ]
+                }
+            },
+            {
+                "sectionLabel": "command options",
+                "optionList": {
+                    "option": [
+                        {
+                            "combinedForm": "--isatty\u003d1",
+                            "optionName": "isatty",
+                            "optionValue": "1",
+                            "effectTags": [
+                                "UNKNOWN"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--terminal_columns\u003d126",
+                            "optionName": "terminal_columns",
+                            "optionValue": "126",
+                            "effectTags": [
+                                "UNKNOWN"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--rc_source\u003dclient",
+                            "optionName": "rc_source",
+                            "optionValue": "client",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--default_override\u003d0:common\u003d--isatty\u003d1",
+                            "optionName": "default_override",
+                            "optionValue": "0:common\u003d--isatty\u003d1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--default_override\u003d0:common\u003d--terminal_columns\u003d126",
+                            "optionName": "default_override",
+                            "optionValue": "0:common\u003d--terminal_columns\u003d126",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--startup_time\u003d26",
+                            "optionName": "startup_time",
+                            "optionValue": "26",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--command_wait_time\u003d0",
+                            "optionName": "command_wait_time",
+                            "optionValue": "0",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--extract_data_time\u003d0",
+                            "optionName": "extract_data_time",
+                            "optionValue": "0",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--binary_path\u003d/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin/bazel",
+                            "optionName": "binary_path",
+                            "optionValue": "/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin/bazel",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS",
+                                "BAZEL_MONITORING"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dSHELL\u003d/bin/bash",
+                            "optionName": "client_env",
+                            "optionValue": "SHELL\u003d/bin/bash",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dQT_ACCESSIBILITY\u003d1",
+                            "optionName": "client_env",
+                            "optionValue": "QT_ACCESSIBILITY\u003d1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dCOLORTERM\u003dtruecolor",
+                            "optionName": "client_env",
+                            "optionValue": "COLORTERM\u003dtruecolor",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_CONFIG_DIRS\u003d/etc/xdg/xdg-i3:/etc/xdg",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_CONFIG_DIRS\u003d/etc/xdg/xdg-i3:/etc/xdg",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dGTK_IM_MODULE\u003dibus",
+                            "optionName": "client_env",
+                            "optionValue": "GTK_IM_MODULE\u003dibus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dI3SOCK\u003d/run/user/1000/i3/ipc-socket.4066",
+                            "optionName": "client_env",
+                            "optionValue": "I3SOCK\u003d/run/user/1000/i3/ipc-socket.4066",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dTERMINATOR_DBUS_PATH\u003d/net/tenshu/Terminator2",
+                            "optionName": "client_env",
+                            "optionValue": "TERMINATOR_DBUS_PATH\u003d/net/tenshu/Terminator2",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dTERMINATOR_UUID\u003durn:uuid:48f18d09-8886-4698-af65-6534a7dcf715",
+                            "optionName": "client_env",
+                            "optionValue": "TERMINATOR_UUID\u003durn:uuid:48f18d09-8886-4698-af65-6534a7dcf715",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXMODIFIERS\u003d@im\u003dibus",
+                            "optionName": "client_env",
+                            "optionValue": "XMODIFIERS\u003d@im\u003dibus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dDESKTOP_SESSION\u003di3",
+                            "optionName": "client_env",
+                            "optionValue": "DESKTOP_SESSION\u003di3",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dGTK_MODULES\u003dgail:atk-bridge",
+                            "optionName": "client_env",
+                            "optionValue": "GTK_MODULES\u003dgail:atk-bridge",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SEAT\u003dseat0",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SEAT\u003dseat0",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dPWD\u003d/home/kristoffer/bazel_testing",
+                            "optionName": "client_env",
+                            "optionValue": "PWD\u003d/home/kristoffer/bazel_testing",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLOGNAME\u003dkristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "LOGNAME\u003dkristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SESSION_DESKTOP\u003di3",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SESSION_DESKTOP\u003di3",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SESSION_TYPE\u003dx11",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SESSION_TYPE\u003dx11",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dGPG_AGENT_INFO\u003d/run/user/1000/gnupg/S.gpg-agent:0:1",
+                            "optionName": "client_env",
+                            "optionValue": "GPG_AGENT_INFO\u003d/run/user/1000/gnupg/S.gpg-agent:0:1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dSYSTEMD_EXEC_PID\u003d3900",
+                            "optionName": "client_env",
+                            "optionValue": "SYSTEMD_EXEC_PID\u003d3900",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXAUTHORITY\u003d/run/user/1000/gdm/Xauthority",
+                            "optionName": "client_env",
+                            "optionValue": "XAUTHORITY\u003d/run/user/1000/gdm/Xauthority",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dWINDOWPATH\u003d2",
+                            "optionName": "client_env",
+                            "optionValue": "WINDOWPATH\u003d2",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dHOME\u003d/home/kristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "HOME\u003d/home/kristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dUSERNAME\u003dkristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "USERNAME\u003dkristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLANG\u003den_US.UTF-8",
+                            "optionName": "client_env",
+                            "optionValue": "LANG\u003den_US.UTF-8",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLS_COLORS\u003drs\u003d0:di\u003d01;34:ln\u003d01;36:mh\u003d00:pi\u003d40;33:so\u003d01;35:do\u003d01;35:bd\u003d40;33;01:cd\u003d40;33;01:or\u003d40;31;01:mi\u003d00:su\u003d37;41:sg\u003d30;43:ca\u003d00:tw\u003d30;42:ow\u003d34;42:st\u003d37;44:ex\u003d01;32:*.tar\u003d01;31:*.tgz\u003d01;31:*.arc\u003d01;31:*.arj\u003d01;31:*.taz\u003d01;31:*.lha\u003d01;31:*.lz4\u003d01;31:*.lzh\u003d01;31:*.lzma\u003d01;31:*.tlz\u003d01;31:*.txz\u003d01;31:*.tzo\u003d01;31:*.t7z\u003d01;31:*.zip\u003d01;31:*.z\u003d01;31:*.dz\u003d01;31:*.gz\u003d01;31:*.lrz\u003d01;31:*.lz\u003d01;31:*.lzo\u003d01;31:*.xz\u003d01;31:*.zst\u003d01;31:*.tzst\u003d01;31:*.bz2\u003d01;31:*.bz\u003d01;31:*.tbz\u003d01;31:*.tbz2\u003d01;31:*.tz\u003d01;31:*.deb\u003d01;31:*.rpm\u003d01;31:*.jar\u003d01;31:*.war\u003d01;31:*.ear\u003d01;31:*.sar\u003d01;31:*.rar\u003d01;31:*.alz\u003d01;31:*.ace\u003d01;31:*.zoo\u003d01;31:*.cpio\u003d01;31:*.7z\u003d01;31:*.rz\u003d01;31:*.cab\u003d01;31:*.wim\u003d01;31:*.swm\u003d01;31:*.dwm\u003d01;31:*.esd\u003d01;31:*.avif\u003d01;35:*.jpg\u003d01;35:*.jpeg\u003d01;35:*.mjpg\u003d01;35:*.mjpeg\u003d01;35:*.gif\u003d01;35:*.bmp\u003d01;35:*.pbm\u003d01;35:*.pgm\u003d01;35:*.ppm\u003d01;35:*.tga\u003d01;35:*.xbm\u003d01;35:*.xpm\u003d01;35:*.tif\u003d01;35:*.tiff\u003d01;35:*.png\u003d01;35:*.svg\u003d01;35:*.svgz\u003d01;35:*.mng\u003d01;35:*.pcx\u003d01;35:*.mov\u003d01;35:*.mpg\u003d01;35:*.mpeg\u003d01;35:*.m2v\u003d01;35:*.mkv\u003d01;35:*.webm\u003d01;35:*.webp\u003d01;35:*.ogm\u003d01;35:*.mp4\u003d01;35:*.m4v\u003d01;35:*.mp4v\u003d01;35:*.vob\u003d01;35:*.qt\u003d01;35:*.nuv\u003d01;35:*.wmv\u003d01;35:*.asf\u003d01;35:*.rm\u003d01;35:*.rmvb\u003d01;35:*.flc\u003d01;35:*.avi\u003d01;35:*.fli\u003d01;35:*.flv\u003d01;35:*.gl\u003d01;35:*.dl\u003d01;35:*.xcf\u003d01;35:*.xwd\u003d01;35:*.yuv\u003d01;35:*.cgm\u003d01;35:*.emf\u003d01;35:*.ogv\u003d01;35:*.ogx\u003d01;35:*.aac\u003d00;36:*.au\u003d00;36:*.flac\u003d00;36:*.m4a\u003d00;36:*.mid\u003d00;36:*.midi\u003d00;36:*.mka\u003d00;36:*.mp3\u003d00;36:*.mpc\u003d00;36:*.ogg\u003d00;36:*.ra\u003d00;36:*.wav\u003d00;36:*.oga\u003d00;36:*.opus\u003d00;36:*.spx\u003d00;36:*.xspf\u003d00;36:*~\u003d00;90:*#\u003d00;90:*.bak\u003d00;90:*.old\u003d00;90:*.orig\u003d00;90:*.part\u003d00;90:*.rej\u003d00;90:*.swp\u003d00;90:*.tmp\u003d00;90:*.dpkg-dist\u003d00;90:*.dpkg-old\u003d00;90:*.ucf-dist\u003d00;90:*.ucf-new\u003d00;90:*.ucf-old\u003d00;90:*.rpmnew\u003d00;90:*.rpmorig\u003d00;90:*.rpmsave\u003d00;90:",
+                            "optionName": "client_env",
+                            "optionValue": "LS_COLORS\u003drs\u003d0:di\u003d01;34:ln\u003d01;36:mh\u003d00:pi\u003d40;33:so\u003d01;35:do\u003d01;35:bd\u003d40;33;01:cd\u003d40;33;01:or\u003d40;31;01:mi\u003d00:su\u003d37;41:sg\u003d30;43:ca\u003d00:tw\u003d30;42:ow\u003d34;42:st\u003d37;44:ex\u003d01;32:*.tar\u003d01;31:*.tgz\u003d01;31:*.arc\u003d01;31:*.arj\u003d01;31:*.taz\u003d01;31:*.lha\u003d01;31:*.lz4\u003d01;31:*.lzh\u003d01;31:*.lzma\u003d01;31:*.tlz\u003d01;31:*.txz\u003d01;31:*.tzo\u003d01;31:*.t7z\u003d01;31:*.zip\u003d01;31:*.z\u003d01;31:*.dz\u003d01;31:*.gz\u003d01;31:*.lrz\u003d01;31:*.lz\u003d01;31:*.lzo\u003d01;31:*.xz\u003d01;31:*.zst\u003d01;31:*.tzst\u003d01;31:*.bz2\u003d01;31:*.bz\u003d01;31:*.tbz\u003d01;31:*.tbz2\u003d01;31:*.tz\u003d01;31:*.deb\u003d01;31:*.rpm\u003d01;31:*.jar\u003d01;31:*.war\u003d01;31:*.ear\u003d01;31:*.sar\u003d01;31:*.rar\u003d01;31:*.alz\u003d01;31:*.ace\u003d01;31:*.zoo\u003d01;31:*.cpio\u003d01;31:*.7z\u003d01;31:*.rz\u003d01;31:*.cab\u003d01;31:*.wim\u003d01;31:*.swm\u003d01;31:*.dwm\u003d01;31:*.esd\u003d01;31:*.avif\u003d01;35:*.jpg\u003d01;35:*.jpeg\u003d01;35:*.mjpg\u003d01;35:*.mjpeg\u003d01;35:*.gif\u003d01;35:*.bmp\u003d01;35:*.pbm\u003d01;35:*.pgm\u003d01;35:*.ppm\u003d01;35:*.tga\u003d01;35:*.xbm\u003d01;35:*.xpm\u003d01;35:*.tif\u003d01;35:*.tiff\u003d01;35:*.png\u003d01;35:*.svg\u003d01;35:*.svgz\u003d01;35:*.mng\u003d01;35:*.pcx\u003d01;35:*.mov\u003d01;35:*.mpg\u003d01;35:*.mpeg\u003d01;35:*.m2v\u003d01;35:*.mkv\u003d01;35:*.webm\u003d01;35:*.webp\u003d01;35:*.ogm\u003d01;35:*.mp4\u003d01;35:*.m4v\u003d01;35:*.mp4v\u003d01;35:*.vob\u003d01;35:*.qt\u003d01;35:*.nuv\u003d01;35:*.wmv\u003d01;35:*.asf\u003d01;35:*.rm\u003d01;35:*.rmvb\u003d01;35:*.flc\u003d01;35:*.avi\u003d01;35:*.fli\u003d01;35:*.flv\u003d01;35:*.gl\u003d01;35:*.dl\u003d01;35:*.xcf\u003d01;35:*.xwd\u003d01;35:*.yuv\u003d01;35:*.cgm\u003d01;35:*.emf\u003d01;35:*.ogv\u003d01;35:*.ogx\u003d01;35:*.aac\u003d00;36:*.au\u003d00;36:*.flac\u003d00;36:*.m4a\u003d00;36:*.mid\u003d00;36:*.midi\u003d00;36:*.mka\u003d00;36:*.mp3\u003d00;36:*.mpc\u003d00;36:*.ogg\u003d00;36:*.ra\u003d00;36:*.wav\u003d00;36:*.oga\u003d00;36:*.opus\u003d00;36:*.spx\u003d00;36:*.xspf\u003d00;36:*~\u003d00;90:*#\u003d00;90:*.bak\u003d00;90:*.old\u003d00;90:*.orig\u003d00;90:*.part\u003d00;90:*.rej\u003d00;90:*.swp\u003d00;90:*.tmp\u003d00;90:*.dpkg-dist\u003d00;90:*.dpkg-old\u003d00;90:*.ucf-dist\u003d00;90:*.ucf-new\u003d00;90:*.ucf-old\u003d00;90:*.rpmnew\u003d00;90:*.rpmorig\u003d00;90:*.rpmsave\u003d00;90:",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_CURRENT_DESKTOP\u003di3",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_CURRENT_DESKTOP\u003di3",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dVTE_VERSION\u003d7200",
+                            "optionName": "client_env",
+                            "optionValue": "VTE_VERSION\u003d7200",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dTERMINATOR_DBUS_NAME\u003dnet.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873",
+                            "optionName": "client_env",
+                            "optionValue": "TERMINATOR_DBUS_NAME\u003dnet.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dCLUTTER_IM_MODULE\u003dibus",
+                            "optionName": "client_env",
+                            "optionValue": "CLUTTER_IM_MODULE\u003dibus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLESSCLOSE\u003d/usr/bin/lesspipe %s %s",
+                            "optionName": "client_env",
+                            "optionValue": "LESSCLOSE\u003d/usr/bin/lesspipe %s %s",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SESSION_CLASS\u003duser",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SESSION_CLASS\u003duser",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dTERM\u003dxterm-256color",
+                            "optionName": "client_env",
+                            "optionValue": "TERM\u003dxterm-256color",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dLESSOPEN\u003d| /usr/bin/lesspipe %s",
+                            "optionName": "client_env",
+                            "optionValue": "LESSOPEN\u003d| /usr/bin/lesspipe %s",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dUSER\u003dkristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "USER\u003dkristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dDISPLAY\u003d:0",
+                            "optionName": "client_env",
+                            "optionValue": "DISPLAY\u003d:0",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dSHLVL\u003d1",
+                            "optionName": "client_env",
+                            "optionValue": "SHLVL\u003d1",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dQT_IM_MODULE\u003dibus",
+                            "optionName": "client_env",
+                            "optionValue": "QT_IM_MODULE\u003dibus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_VTNR\u003d2",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_VTNR\u003d2",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_SESSION_ID\u003d5",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_SESSION_ID\u003d5",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_RUNTIME_DIR\u003d/run/user/1000",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_RUNTIME_DIR\u003d/run/user/1000",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dDEBUGINFOD_URLS\u003dhttps://debuginfod.ubuntu.com ",
+                            "optionName": "client_env",
+                            "optionValue": "DEBUGINFOD_URLS\u003dhttps://debuginfod.ubuntu.com ",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dXDG_DATA_DIRS\u003d/usr/share/i3:/usr/share/gnome:/home/kristoffer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+                            "optionName": "client_env",
+                            "optionValue": "XDG_DATA_DIRS\u003d/usr/share/i3:/usr/share/gnome:/home/kristoffer/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dPATH\u003d/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin:/home/kristoffer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kristoffer/bin",
+                            "optionName": "client_env",
+                            "optionValue": "PATH\u003d/home/kristoffer/.cache/bazelisk/downloads/sha256/d93508529d41136065c7b1e5ff555fbfb9d18fd00e768886f2fc7dfb53b05b43/bin:/home/kristoffer/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/kristoffer/bin",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dGDMSESSION\u003di3",
+                            "optionName": "client_env",
+                            "optionValue": "GDMSESSION\u003di3",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dDBUS_SESSION_BUS_ADDRESS\u003dunix:path\u003d/run/user/1000/bus",
+                            "optionName": "client_env",
+                            "optionValue": "DBUS_SESSION_BUS_ADDRESS\u003dunix:path\u003d/run/user/1000/bus",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dOLDPWD\u003d/home/kristoffer",
+                            "optionName": "client_env",
+                            "optionValue": "OLDPWD\u003d/home/kristoffer",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003d_\u003d/home/kristoffer/bin/bazel",
+                            "optionName": "client_env",
+                            "optionValue": "_\u003d/home/kristoffer/bin/bazel",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_env\u003dBAZELISK_SKIP_WRAPPER\u003dtrue",
+                            "optionName": "client_env",
+                            "optionValue": "BAZELISK_SKIP_WRAPPER\u003dtrue",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--client_cwd\u003d/home/kristoffer/bazel_testing",
+                            "optionName": "client_cwd",
+                            "optionValue": "/home/kristoffer/bazel_testing",
+                            "effectTags": [
+                                "CHANGES_INPUTS"
+                            ],
+                            "metadataTags": [
+                                "HIDDEN"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--test_output\u003dall",
+                            "optionName": "test_output",
+                            "optionValue": "all",
+                            "effectTags": [
+                                "TEST_RUNNER",
+                                "TERMINAL_OUTPUT",
+                                "EXECUTION"
+                            ]
+                        },
+                        {
+                            "combinedForm": "--build_event_json_file\u003dtest.json",
+                            "optionName": "build_event_json_file",
+                            "optionValue": "test.json",
+                            "effectTags": [
+                                "AFFECTS_OUTPUTS"
+                            ]
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionLabel": "residual",
+                "chunkList": {
+                    "chunk": [
+                        "..."
+                    ]
+                }
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "structuredCommandLine": {
+            "commandLineLabel": "tool"
+        }
+    },
+    "structuredCommandLine": {}
+}
+{
+    "id": {
+        "pattern": {
+            "pattern": [
+                "..."
+            ]
+        }
+    },
+    "children": [
+        {
+            "targetConfigured": {
+                "label": "//library:math_library"
+            }
+        },
+        {
+            "targetConfigured": {
+                "label": "//test:math_test"
+            }
+        },
+        {
+            "targetConfigured": {
+                "label": "//:our_cool_program"
+            }
+        }
+    ],
+    "expanded": {}
+}
+{
+    "id": {
+        "progress": {}
+    },
+    "children": [
+        {
+            "progress": {
+                "opaqueCount": 1
+            }
+        },
+        {
+            "workspace": {}
+        }
+    ],
+    "progress": {
+        "stderr": "\u001b[32mComputing main repo mapping:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mLoading:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mLoading:\u001b[0m 0 packages loaded\n"
+    }
+}
+{
+    "id": {
+        "workspace": {}
+    },
+    "workspaceInfo": {
+        "localExecRoot": "/home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main"
+    }
+}
+{
+    "id": {
+        "progress": {
+            "opaqueCount": 1
+        }
+    },
+    "children": [
+        {
+            "progress": {
+                "opaqueCount": 2
+            }
+        },
+        {
+            "configuration": {
+                "id": "748f8d60c7df63cfad19e7a94d4a9d33cb9e501f655b02856a2d6d028ab8a617"
+            }
+        }
+    ],
+    "progress": {}
+}
+{
+    "id": {
+        "configuration": {
+            "id": "748f8d60c7df63cfad19e7a94d4a9d33cb9e501f655b02856a2d6d028ab8a617"
+        }
+    },
+    "configuration": {
+        "mnemonic": "k8-fastbuild",
+        "platformName": "k8",
+        "cpu": "k8",
+        "makeVariable": {
+            "COMPILATION_MODE": "fastbuild",
+            "TARGET_CPU": "k8",
+            "GENDIR": "bazel-out/k8-fastbuild/bin",
+            "BINDIR": "bazel-out/k8-fastbuild/bin"
+        }
+    }
+}
+{
+    "id": {
+        "progress": {
+            "opaqueCount": 2
+        }
+    },
+    "children": [
+        {
+            "progress": {
+                "opaqueCount": 3
+            }
+        },
+        {
+            "configuration": {
+                "id": "312a038fde71b14d7680a2d5856ddfa0ee2fb821b1f2d44cc703454abe09284c"
+            }
+        }
+    ],
+    "progress": {
+        "stderr": "\r\u001b[1A\u001b[K\u001b[32mAnalyzing:\u001b[0m 3 targets (0 packages loaded, 0 targets configured)\n"
+    }
+}
+{
+    "id": {
+        "targetConfigured": {
+            "label": "//test:math_test"
+        }
+    },
+    "children": [
+        {
+            "targetCompleted": {
+                "label": "//test:math_test",
+                "configuration": {
+                    "id": "748f8d60c7df63cfad19e7a94d4a9d33cb9e501f655b02856a2d6d028ab8a617"
+                }
+            }
+        }
+    ],
+    "configured": {
+        "targetKind": "cc_test rule",
+        "testSize": "MEDIUM"
+    }
+}
+{
+    "id": {
+        "configuration": {
+            "id": "312a038fde71b14d7680a2d5856ddfa0ee2fb821b1f2d44cc703454abe09284c"
+        }
+    },
+    "configuration": {
+        "mnemonic": "k8-fastbuild",
+        "platformName": "k8",
+        "cpu": "k8",
+        "makeVariable": {
+            "COMPILATION_MODE": "fastbuild",
+            "TARGET_CPU": "k8",
+            "GENDIR": "bazel-out/k8-fastbuild/bin",
+            "BINDIR": "bazel-out/k8-fastbuild/bin"
+        }
+    }
+}
+{
+    "id": {
+        "targetConfigured": {
+            "label": "//library:math_library"
+        }
+    },
+    "children": [
+        {
+            "targetCompleted": {
+                "label": "//library:math_library",
+                "configuration": {
+                    "id": "312a038fde71b14d7680a2d5856ddfa0ee2fb821b1f2d44cc703454abe09284c"
+                }
+            }
+        }
+    ],
+    "configured": {
+        "targetKind": "cc_library rule"
+    }
+}
+{
+    "id": {
+        "workspaceStatus": {}
+    },
+    "workspaceStatus": {
+        "item": [
+            {
+                "key": "BUILD_EMBED_LABEL"
+            },
+            {
+                "key": "BUILD_HOST",
+                "value": "kristoffer-HP-EliteBook-840-G5"
+            },
+            {
+                "key": "BUILD_TIMESTAMP",
+                "value": "1712554948"
+            },
+            {
+                "key": "BUILD_USER",
+                "value": "kristoffer"
+            },
+            {
+                "key": "FORMATTED_DATE",
+                "value": "2024 Apr 08 05 42 28 Mon"
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "progress": {
+            "opaqueCount": 3
+        }
+    },
+    "children": [
+        {
+            "progress": {
+                "opaqueCount": 4
+            }
+        },
+        {
+            "namedSet": {
+                "id": "0"
+            }
+        }
+    ],
+    "progress": {
+        "stderr": "\r\u001b[1A\u001b[K\u001b[32mAnalyzing:\u001b[0m 3 targets (0 packages loaded, 0 targets configured)\n\u001b[32m[0 / 1]\u001b[0m [Prepa] BazelWorkspaceStatusAction stable-status.txt\n"
+    }
+}
+{
+    "id": {
+        "targetConfigured": {
+            "label": "//:our_cool_program"
+        }
+    },
+    "children": [
+        {
+            "targetCompleted": {
+                "label": "//:our_cool_program",
+                "configuration": {
+                    "id": "312a038fde71b14d7680a2d5856ddfa0ee2fb821b1f2d44cc703454abe09284c"
+                }
+            }
+        }
+    ],
+    "configured": {
+        "targetKind": "cc_binary rule"
+    }
+}
+{
+    "id": {
+        "namedSet": {
+            "id": "0"
+        }
+    },
+    "namedSetOfFiles": {
+        "files": [
+            {
+                "name": "library/libmath_library.a",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/bin/library/libmath_library.a",
+                "pathPrefix": [
+                    "bazel-out",
+                    "k8-fastbuild",
+                    "bin"
+                ],
+                "digest": "00e7b601ea3e374e763c192bc6756b4008d8d27e43cd6996caa0cc345605af8e",
+                "length": "1490"
+            },
+            {
+                "name": "library/libmath_library.so",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/bin/library/libmath_library.so",
+                "pathPrefix": [
+                    "bazel-out",
+                    "k8-fastbuild",
+                    "bin"
+                ],
+                "digest": "62a55f807658211bf5b4d9aed82bd3e3fc8b1abd0d0f54d02ec681af73fa4697",
+                "length": "7448"
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "progress": {
+            "opaqueCount": 4
+        }
+    },
+    "children": [
+        {
+            "progress": {
+                "opaqueCount": 5
+            }
+        },
+        {
+            "namedSet": {
+                "id": "1"
+            }
+        }
+    ],
+    "progress": {
+        "stderr": "\r\u001b[1A\u001b[K\r\u001b[1A\u001b[K\u001b[32mINFO: \u001b[0mAnalyzed 3 targets (0 packages loaded, 0 targets configured).\n\u001b[32m[1 / 2]\u001b[0m checking cached actions\n"
+    }
+}
+{
+    "id": {
+        "namedSet": {
+            "id": "1"
+        }
+    },
+    "namedSetOfFiles": {
+        "files": [
+            {
+                "name": "our_cool_program",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/bin/our_cool_program",
+                "pathPrefix": [
+                    "bazel-out",
+                    "k8-fastbuild",
+                    "bin"
+                ],
+                "digest": "2fa0d5013eacbeb10688b17e9d1fb5402b975d9725997604ee6f1926899c6972",
+                "length": "8408"
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "targetCompleted": {
+            "label": "//:our_cool_program",
+            "configuration": {
+                "id": "312a038fde71b14d7680a2d5856ddfa0ee2fb821b1f2d44cc703454abe09284c"
+            }
+        }
+    },
+    "completed": {
+        "success": true,
+        "outputGroup": [
+            {
+                "name": "default",
+                "fileSets": [
+                    {
+                        "id": "1"
+                    }
+                ]
+            }
+        ],
+        "importantOutput": [
+            {
+                "name": "our_cool_program",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/bin/our_cool_program",
+                "pathPrefix": [
+                    "bazel-out",
+                    "k8-fastbuild",
+                    "bin"
+                ],
+                "digest": "2fa0d5013eacbeb10688b17e9d1fb5402b975d9725997604ee6f1926899c6972",
+                "length": "8408"
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "progress": {
+            "opaqueCount": 5
+        }
+    },
+    "children": [
+        {
+            "progress": {
+                "opaqueCount": 6
+            }
+        },
+        {
+            "namedSet": {
+                "id": "2"
+            }
+        }
+    ],
+    "progress": {}
+}
+{
+    "id": {
+        "namedSet": {
+            "id": "2"
+        }
+    },
+    "namedSetOfFiles": {
+        "files": [
+            {
+                "name": "test/math_test",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/bin/test/math_test",
+                "pathPrefix": [
+                    "bazel-out",
+                    "k8-fastbuild",
+                    "bin"
+                ],
+                "digest": "ef99e7a36fe5dbde4028e7e0c350d4e9f30476a6ca91bac7d317d19be65be686",
+                "length": "46688"
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "targetCompleted": {
+            "label": "//test:math_test",
+            "configuration": {
+                "id": "748f8d60c7df63cfad19e7a94d4a9d33cb9e501f655b02856a2d6d028ab8a617"
+            }
+        }
+    },
+    "children": [
+        {
+            "testResult": {
+                "label": "//test:math_test",
+                "run": 1,
+                "shard": 1,
+                "attempt": 1,
+                "configuration": {
+                    "id": "748f8d60c7df63cfad19e7a94d4a9d33cb9e501f655b02856a2d6d028ab8a617"
+                }
+            }
+        },
+        {
+            "testSummary": {
+                "label": "//test:math_test",
+                "configuration": {
+                    "id": "748f8d60c7df63cfad19e7a94d4a9d33cb9e501f655b02856a2d6d028ab8a617"
+                }
+            }
+        }
+    ],
+    "completed": {
+        "success": true,
+        "outputGroup": [
+            {
+                "name": "default",
+                "fileSets": [
+                    {
+                        "id": "2"
+                    }
+                ]
+            }
+        ],
+        "tag": [
+            "medium",
+            "moderate",
+            "noflaky",
+            "nolocal"
+        ],
+        "importantOutput": [
+            {
+                "name": "test/math_test",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/bin/test/math_test",
+                "pathPrefix": [
+                    "bazel-out",
+                    "k8-fastbuild",
+                    "bin"
+                ],
+                "digest": "ef99e7a36fe5dbde4028e7e0c350d4e9f30476a6ca91bac7d317d19be65be686",
+                "length": "46688"
+            }
+        ],
+        "testTimeoutSeconds": "300",
+        "testTimeout": "300s"
+    }
+}
+{
+    "id": {
+        "targetCompleted": {
+            "label": "//library:math_library",
+            "configuration": {
+                "id": "312a038fde71b14d7680a2d5856ddfa0ee2fb821b1f2d44cc703454abe09284c"
+            }
+        }
+    },
+    "completed": {
+        "success": true,
+        "outputGroup": [
+            {
+                "name": "default",
+                "fileSets": [
+                    {
+                        "id": "0"
+                    }
+                ]
+            }
+        ],
+        "importantOutput": [
+            {
+                "name": "library/libmath_library.a",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/bin/library/libmath_library.a",
+                "pathPrefix": [
+                    "bazel-out",
+                    "k8-fastbuild",
+                    "bin"
+                ],
+                "digest": "00e7b601ea3e374e763c192bc6756b4008d8d27e43cd6996caa0cc345605af8e",
+                "length": "1490"
+            },
+            {
+                "name": "library/libmath_library.so",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/bin/library/libmath_library.so",
+                "pathPrefix": [
+                    "bazel-out",
+                    "k8-fastbuild",
+                    "bin"
+                ],
+                "digest": "62a55f807658211bf5b4d9aed82bd3e3fc8b1abd0d0f54d02ec681af73fa4697",
+                "length": "7448"
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "testResult": {
+            "label": "//test:math_test",
+            "run": 1,>
+    },
+    "testResult": {
+        "testActionOutput": [
+            {
+                "name": "test.log",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/testlogs/test/math_test/test.log"
+            },
+            {
+                "name": "test.xml",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/testlogs/test/math_test/test.xml"
+            }
+        ],
+        "testAttemptDurationMillis": "29",
+        "cachedLocally": true,
+        "status": "PASSED",
+        "testAttemptStartMillisEpoch": "1712554914387",
+        "executionInfo": {},
+        "testAttemptStart": "2024-04-08T05:41:54.387Z",
+        "testAttemptDuration": "0.029s"
+    }
+}
+{
+    "id": {
+        "testSummary": {
+            "label": "//test:math_test",
+            "configuration": {
+                "id": "748f8d60c7df63cfad19e7a94d4a9d33cb9e501f655b02856a2d6d028ab8a617"
+            }
+        }
+    },
+    "testSummary": {
+        "totalRunCount": 1,
+        "passed": [
+            {
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/testlogs/test/math_test/test.log"
+            }
+        ],
+        "overallStatus": "PASSED",
+        "totalNumCached": 1,
+        "firstStartTimeMillis": "1712554914387",
+        "lastStopTimeMillis": "1712554914416",
+        "totalRunDurationMillis": "29",
+        "runCount": 1,
+        "totalRunDuration": "0.029s",
+        "firstStartTime": "2024-04-08T05:41:54.387Z",
+        "lastStopTime": "2024-04-08T05:41:54.416Z",
+        "attemptCount": 1
+    }
+}
+{
+    "id": {
+        "progress": {
+            "opaqueCount": 6
+        }
+    },
+    "children": [
+        {
+            "progress": {
+                "opaqueCount": 7
+            }
+        },
+        {
+            "coverageActionsFinished": {}
+        }
+    ],
+    "progress": {}
+}
+{
+    "id": {
+        "coverageActionsFinished": {}
+    }
+}
+{
+    "id": {
+        "buildFinished": {}
+    },
+    "children": [
+        {
+            "buildToolLogs": {}
+        }
+    ],
+    "finished": {
+        "overallSuccess": true,
+        "finishTimeMillis": "1712554948874",
+        "exitCode": {
+            "name": "SUCCESS"
+        },
+        "finishTime": "2024-04-08T05:42:28.874Z"
+    }
+}
+{
+    "id": {
+        "progress": {
+            "opaqueCount": 7
+        }
+    },
+    "children": [
+        {
+            "progress": {
+                "opaqueCount": 8
+            }
+        },
+        {
+            "buildMetrics": {}
+        }
+    ],
+    "progress": {
+        "stdout": "\u001b[0m\u001b[32mPASSED: \u001b[0m//test:math_test (see /home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/execroot/_main/bazel-out/k8-fastbuild/testlogs/test/math_test/test.log)\n\u001b[0m\u001b[32mINFO: \u001b[0mFrom Testing //test:math_test\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Test output for //test:math_test:\nRunning main() from gmock_main.cc\n[\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d] Running 1 test from 1 test suite.\n[----------] Global test environment set-up.\n[----------] 1 test from custom_math\n[ RUN      ] custom_math.sum\n[       OK ] custom_math.sum (0 ms)\n[----------] 1 test from custom_math (0 ms total)\n\n[----------] Global test environment tear-down\n[\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d] 1 test from 1 test suite ran. (0 ms total)\n[  PASSED  ] 1 test.\n\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n//test:math_test                                                \u001b[0m\u001b[32m(cached) PASSED\u001b[0m in 0.0s\n\nExecuted 0 out of 1 test: 1 test passes.\nThere were tests whose specified size is too big. Use the --test_verbose_timeout_warnings command line option to see which ones these are.\n",
+        "stderr": "\r\u001b[1A\u001b[K\u001b[32mINFO: \u001b[0mFound 2 targets and 1 test target...\n\u001b[32m[2 / 2]\u001b[0m 1 / 1 tests;\u001b[0m checking cached actions\u001b[0m; last test: \u001b[32m//test:math_test\u001b[0m\n\r\u001b[1A\u001b[K\u001b[32mINFO: \u001b[0mElapsed time: 0.229s, Critical Path: 0.00s\n\u001b[32m[2 / 2]\u001b[0m 1 / 1 tests;\u001b[0m checking cached actions\u001b[0m; last test: \u001b[32m//test:math_test\u001b[0m\n\r\u001b[1A\u001b[K\u001b[32mINFO: \u001b[0m1 process: 1 internal.\n\u001b[32m[2 / 2]\u001b[0m 1 / 1 tests;\u001b[0m checking cached actions\u001b[0m; last test: \u001b[32m//test:math_test\u001b[0m\n\r\u001b[1A\u001b[K\u001b[32mINFO: \u001b[0mBuild completed successfully, 1 total action\n\u001b[32mINFO:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mINFO:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mINFO:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mINFO:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mINFO:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mINFO:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mINFO:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mINFO:\u001b[0m \n\r\u001b[1A\u001b[K\u001b[32mINFO:\u001b[0m \n"
+    }
+}
+{
+    "id": {
+        "buildMetrics": {}
+    },
+    "buildMetrics": {
+        "actionSummary": {
+            "actionsExecuted": "1",
+            "actionData": [
+                {
+                    "mnemonic": "BazelWorkspaceStatusAction",
+                    "actionsExecuted": "1",
+                    "firstStartedMs": "1712554948859",
+                    "lastEndedMs": "1712554948861"
+                }
+            ],
+            "runnerCount": [
+                {
+                    "name": "total",
+                    "count": 1
+                },
+                {
+                    "name": "internal",
+                    "count": 1
+                }
+            ],
+            "actionCacheStatistics": {
+                "sizeInBytes": "25549",
+                "hits": 1,
+                "misses": 1,
+                "missDetails": [
+                    {},
+                    {
+                        "reason": "DIFFERENT_DEPS"
+                    },
+                    {
+                        "reason": "DIFFERENT_ENVIRONMENT"
+                    },
+                    {
+                        "reason": "DIFFERENT_FILES"
+                    },
+                    {
+                        "reason": "CORRUPTED_CACHE_ENTRY"
+                    },
+                    {
+                        "reason": "NOT_CACHED"
+                    },
+                    {
+                        "reason": "UNCONDITIONAL_EXECUTION",
+                        "count": 1
+                    }
+                ]
+            }
+        },
+        "memoryMetrics": {},
+        "targetMetrics": {},
+        "packageMetrics": {},
+        "timingMetrics": {
+            "cpuTimeInMs": "820",
+            "wallTimeInMs": "203",
+            "analysisPhaseTimeInMs": "4",
+            "executionPhaseTimeInMs": "15"
+        },
+        "cumulativeMetrics": {
+            "numAnalyses": 5,
+            "numBuilds": 5
+        },
+        "artifactMetrics": {
+            "sourceArtifactsRead": {},
+            "outputArtifactsSeen": {
+                "sizeInBytes": "890",
+                "count": 4
+            },
+            "outputArtifactsFromActionCache": {
+                "sizeInBytes": "740",
+                "count": 2
+            },
+            "topLevelArtifacts": {}
+        },
+        "buildGraphMetrics": {
+            "postInvocationSkyframeNodeCount": 4707
+        },
+        "workerPoolMetrics": {}
+    }
+}
+{
+    "id": {
+        "buildToolLogs": {}
+    },
+    "buildToolLogs": {
+        "log": [
+            {
+                "name": "elapsed time",
+                "contents": "MC4yMjkwMDA="
+            },
+            {
+                "name": "critical path",
+                "contents": "Q3JpdGljYWwgUGF0aDogMC4wMHMsIFJlbW90ZSAoMC4wMCUgb2YgdGhlIHRpbWUpOiBbcGFyc2U6IDAuMDAlLCBxdWV1ZTogMC4wMCUsIG5ldHdvcms6IDAuMDAlLCB1cGxvYWQ6IDAuMDAlLCBzZXR1cDogMC4wMCUsIHByb2Nlc3M6IDAuMDAlLCBmZXRjaDogMC4wMCUsIHJldHJ5OiAwLjAwJSwgcHJvY2Vzc091dHB1dHM6IDAuMDAlLCBvdGhlcjogMC4wMCUsIGlucHV0IGZpbGVzOiAwLCBpbnB1dCBieXRlczogMCwgbWVtb3J5IGJ5dGVzOiAwXQogIDAuMDBzIGFjdGlvbiAnQmF6ZWxXb3Jrc3BhY2VTdGF0dXNBY3Rpb24gc3RhYmxlLXN0YXR1cy50eHQn"
+            },
+            {
+                "name": "process stats",
+                "contents": "MSBwcm9jZXNzOiAxIGludGVybmFsLg=="
+            },
+            {
+                "name": "command.profile.gz",
+                "uri": "file:///home/kristoffer/.cache/bazel/_bazel_kristoffer/708b7c5a3611e4ad37c51c9f584c1bd8/command.profile.gz"
+            }
+        ]
+    }
+}
+{
+    "id": {
+        "progress": {
+            "opaqueCount": 8
+        }
+    },
+    "progress": {},
+    "lastMessage": true
+}

@@ -1,0 +1,15 @@
+package(default_visibility = ["//visibility:public"])
+
+
+config_setting(
+    name = "has_some_custom_stuff",
+    define_values = {"SOMETHING": "123"},
+)
+
+
+cc_binary(
+    name = "our_cool_program",
+    deps = ["//library:math_library"],
+    srcs = ["product/main.cpp"],
+)
+

@@ -1,0 +1,7 @@
+
+
+cc_binary(
+    name = "product",
+    deps = ["//lib_b:thing"],
+    srcs = ["main.cpp"],
+)

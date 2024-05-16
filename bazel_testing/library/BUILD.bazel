@@ -1,0 +1,16 @@
+genrule(
+    name = "modify_source",
+    srcs = ["custom_math.cpp"],
+    outs = ["custom_math.patched.cpp"],
+    cmd = "echo '\nint times(int x, int y)\n{\nreturn x*y;}\n' > $(OUTS)",
+)
+
+
+cc_library(
+    name = "math_library",
+    srcs = ["custom_math.patched.cpp"],
+    hdrs = ["include/custom_math.h"],
+    includes = ["include"],
+    strip_include_prefix = "include",
+    visibility = ["//visibility:public"],
+)

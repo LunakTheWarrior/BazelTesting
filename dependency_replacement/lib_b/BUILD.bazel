@@ -1,0 +1,6 @@
+cc_library(
+    name = "thing",
+    hdrs = ["thing.h"],
+    includes = ["."],
+    visibility = ["//product:__pkg__"],
+)

@@ -1,0 +1,9 @@
+
+cc_test(
+    name = "math_test",
+    deps = [
+        "@googletest//:gtest_main",
+        "//library:math_library",
+    ],
+    srcs = ["custom_mathTest.cpp"],
+)

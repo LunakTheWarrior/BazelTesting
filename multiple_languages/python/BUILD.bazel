@@ -1,0 +1,21 @@
+load("@rules_python//python:defs.bzl", "py_test", "py_library")
+
+py_library(
+    name = "kode",
+    srcs = [
+        "src/kode.py"
+    ],
+    visibility = ["//visibility:public"],
+)
+
+
+py_test(
+    name = "testen",
+    deps = [
+        "//python:kode",
+    ],
+    srcs = [
+        "test/testen.py",
+    ],
+    visibility = ["//visibility:public"],
+)

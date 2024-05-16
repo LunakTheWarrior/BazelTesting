@@ -1,0 +1,28 @@
+load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
+
+
+cc_library(
+    name = "math_lib",
+    srcs = [
+        "src/custom_math.cpp",
+    ],
+    hdrs = [
+        "include/custom_math.h",
+    ],
+    include_prefix = "include",
+    includes = [
+        "include",
+    ],
+)
+
+
+cc_test(
+    name = "mathTest",
+    deps = [
+        ":math_lib",
+        "@googletest//:gtest_main",
+    ],
+    srcs = [
+        "test/mathTest.cpp"
+    ],
+)
