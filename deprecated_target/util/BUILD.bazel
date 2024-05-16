@@ -1,0 +1,9 @@
+cc_library(
+    name = "util_lib",
+    hdrs = [
+        "util.hpp",
+    ],
+    includes = ["."],
+    deprecation = "This util library is deprecated use something else, you need a new seller that sells weaker potions!",
+    visibility = ["//visibility:public"],
+)

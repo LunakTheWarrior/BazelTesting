@@ -13,12 +13,16 @@ cc_library(
     includes = [
         "math",
     ],
+    deprecation = "Hello dear user, this library is deprecated please consider using ABC instead",
 )
 
 cc_binary(
     name = "program",
     deps = [
+        #As described in https://bazel.build/reference/be/common-definitions intra-packages does not trigger a warning, when there is use of deprecated targets.
         ":math_lib",
+        #However this is an external packages, and will trigger the deprecation warning.
+        "//util:util_lib",
     ],
     srcs = [
         "main.cpp",
