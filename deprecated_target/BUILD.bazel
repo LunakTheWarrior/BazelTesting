@@ -1,0 +1,26 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+
+cc_library(
+    name = "math_lib",
+    srcs = [
+        "math/custom_math.cpp",
+    ],
+    hdrs = [
+        "math/custom_math.h",
+    ],
+    include_prefix = "math",
+    includes = [
+        "math",
+    ],
+)
+
+cc_binary(
+    name = "program",
+    deps = [
+        ":math_lib",
+    ],
+    srcs = [
+        "main.cpp",
+    ],
+)
