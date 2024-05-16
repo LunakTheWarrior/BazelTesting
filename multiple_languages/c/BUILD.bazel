@@ -1,0 +1,16 @@
+load("@rules_cc//cc:defs.bzl", "cc_library")
+
+cc_library(
+    name = "string_helper",
+    srcs = [
+        "src/string_helper.c",
+    ],
+    hdrs = [
+        "include/string_helper.h",
+    ],
+    includes = [
+        "include",
+    ],
+    strip_include_prefix = "include",
+    visibility = ["//visibility:public"],
+)

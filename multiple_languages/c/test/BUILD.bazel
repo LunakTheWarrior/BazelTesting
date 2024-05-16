@@ -1,0 +1,22 @@
+
+
+cc_binary(
+    name = "string_app",
+    deps = [
+        "//c:string_helper",
+    ],
+    srcs = [
+        "main.c"
+    ],
+)
+
+py_test(
+    name = "test_c_program",
+    deps = [
+        ":string_app",
+        "@rules_python//python/runfiles",
+    ],
+    srcs = [
+        "test_c_program.py"
+    ],
+)
