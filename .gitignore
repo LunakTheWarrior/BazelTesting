@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+#bazel related
+*MODULE.bazel.lock
+bazel-bin
+multiple_languages/bazel-multiple_languages
+bazel-out
+bazel-testlogs
+python_bazel/bazel-python_bazel
