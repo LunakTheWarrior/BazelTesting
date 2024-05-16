@@ -1,7 +1,5 @@
 import unittest
 import subprocess
-import os
-
 
 class TestCProgram(unittest.TestCase):
     def test_output(self):
