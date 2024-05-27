@@ -1,5 +1,5 @@
 load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
-
+load("@stardoc//stardoc:stardoc.bzl", "stardoc")
 
 cc_library(
     name = "math_lib",
@@ -13,6 +13,12 @@ cc_library(
     includes = [
         "include",
     ],
+    visibility = ["//visibility:public"],
+)
+
+stardoc(
+    name = "math_lib_documentation",
+    input = "src/custom_math.cpp",
 )
 
 
@@ -25,4 +31,14 @@ cc_test(
     srcs = [
         "test/mathTest.cpp"
     ],
+)
+
+cc_binary(
+    name = "program",
+    deps = [
+        ":math_lib",
+    ],
+    srcs = [
+        "program/main.cpp",
+    ],  
 )
