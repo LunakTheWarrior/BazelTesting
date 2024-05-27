@@ -16,12 +16,6 @@ cc_library(
     visibility = ["//visibility:public"],
 )
 
-stardoc(
-    name = "math_lib_documentation",
-    input = "src/custom_math.cpp",
-    out = "custom_math.md",
-)
-
 
 cc_test(
     name = "mathTest",

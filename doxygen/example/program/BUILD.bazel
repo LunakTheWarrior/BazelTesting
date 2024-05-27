@@ -1,0 +1,9 @@
+cc_binary(
+    name = "program",
+    deps = [
+        "//example/library:util_lib",
+    ],
+    srcs = [
+        "main.cpp",
+    ],
+)

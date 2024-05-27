@@ -1,0 +1,9 @@
+
+
+
+
+sh_binary(
+    name = "doxygen",
+    srcs = ["doxygen.sh"],
+    visibility = ["//visibility:public"],
+)
