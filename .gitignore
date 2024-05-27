@@ -43,3 +43,4 @@ bazel-testlogs
 python_bazel/bazel-python_bazel
 missing_dependency/bazel-missing_dependency
 deprecated_target/bazel-deprecated_target
+delete_dependency/bazel-delete_dependency

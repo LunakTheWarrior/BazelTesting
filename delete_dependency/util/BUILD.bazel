@@ -1,0 +1,12 @@
+
+cc_library(
+    name = "etAbsurdNavn",
+    srcs = [
+        "some_stuff.cpp"
+    ],
+    hdrs = [
+        "some_stuff.h",
+    ],
+    includes = ["."],
+    visibility = ["//visibility:public"],
+)

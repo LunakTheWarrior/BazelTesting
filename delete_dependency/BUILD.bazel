@@ -1,0 +1,23 @@
+
+filegroup(
+    name = "linker_scripts",
+    srcs = [
+        "exclude.ld",
+    ],
+)
+
+cc_binary(
+    name = "program",
+    srcs = [
+        "main.cpp",
+    ],
+    deps = [
+        "//util:etAbsurdNavn",
+    ],
+    additional_linker_inputs = [
+        ":linker_scripts"
+    ],
+    linkopts = [
+        "-Wl,--script=$(execpath :linker_scripts)",
+    ],
+)
