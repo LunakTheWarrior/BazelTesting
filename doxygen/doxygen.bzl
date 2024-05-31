@@ -1,37 +1,39 @@
-def _doxygen_impl(ctx):
-    output_dir = ctx.outputs.output_dir
+def _collect_sources(target):
+    all_sources = depset(direct=[target.files],)
+    return all_sources
 
-    # Collect source files using Bazel's query
-    result = ctx.actions.run_shell(
-        command = "bazel query 'kind(\"source file\", deps(%s))' --output=package" % ctx.label.name,
-        outputs = [ctx.actions.declare_file("source_files.txt")]
+def _generate_docs_impl(ctx):
+    target = ctx.attr.target
+    source_files_output = ctx.actions.declare_file(ctx.attr.name + "_source_files.txt")
+
+    # Collect all source files from the target and its transitive dependencies
+    all_sources = _collect_sources(target)
+    
+    print(all_sources)
+
+    # Write the source files paths to the output file
+    source_files_list = "\n".join([f.path for f in all_sources.to_list()])
+
+    ctx.actions.write(
+        output = source_files_output,
+        content = source_files_list,
     )
 
-    # Read the collected source files
-    source_files = ctx.file.source_files.txt.read().strip().split()
 
-    ctx.actions.run(
-        inputs = source_files,
-        outputs = [output_dir],
-        arguments = [
-            "-s", ctx.file.doxyfile.path,
-            "-d", output_dir.path,
-        ],
-        executable = ctx.executable._doxygen,
-        mnemonic = "Doxygen",
+    # You can then run Doxygen with this file as input
+    doxygen_command = "doxygen -g %s && doxygen %s" % (source_files_output.path, source_files_output.path)
+
+    ctx.actions.run_shell(
+        command = doxygen_command,
+        inputs = [source_files_output],
+        outputs = [ctx.actions.declare_file(ctx.attr.name + "_doxygen_output")]
     )
+
+    
 
 doxygen_rule = rule(
-    implementation = _doxygen_impl,
+    implementation = _generate_docs_impl,
     attrs = {
-        "target": attr.label(),
-        "doxyfile": attr.label(allow_single_file = [".Doxyfile"]),
-        "_doxygen": attr.label(
-            executable = True,
-            allow_files = True,
-            default = "//tools/doxygen:doxygen",
-            cfg = "host",
-        ),
+        "target": attr.label(mandatory=True),
     },
-    outputs = {"output_dir": "%{name}/docs"},
 )

@@ -1,5 +1,4 @@
 load("@rules_cc//cc:defs.bzl", "cc_library", "cc_test")
-load("@stardoc//stardoc:stardoc.bzl", "stardoc")
 
 cc_library(
     name = "math_lib",

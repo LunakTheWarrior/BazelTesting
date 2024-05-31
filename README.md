@@ -6,6 +6,8 @@ A collection of bazel repos for testing.
 
 Illustrates that bazel can handle multiple languages and run tests for all languages simultaneously with bazel test ...
 
+You can also generate doxygen documents with 
+
 ## missing dependency 
 
 Illustrates that bazel does not detect missing dependencies during the analysis phase, it will just fail during compilation (or the "Action" phase)
